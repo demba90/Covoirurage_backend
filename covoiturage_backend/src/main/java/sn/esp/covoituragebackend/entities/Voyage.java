@@ -1,6 +1,5 @@
 package sn.esp.covoituragebackend.entities;
 
-import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -9,16 +8,18 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlTransient;
 
 import org.hibernate.validator.constraints.Length;
-
+/**
+ * Entité Voyage. Elle est en relation avec  Conducteur et Voiture
+ * @author thiam
+ *
+ */
 @Entity
 @Table(name="voyages")
 public class Voyage {
-	private Long idVoiture;
+	private Long idVoyage;
 	private String villeDepart;
 	private String villeArrivee;
 	private Date dateVoyage;
@@ -33,11 +34,11 @@ public class Voyage {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	public Long getIdVoiture() {
-		return idVoiture;
+	public Long getIdVoyage() {
+		return idVoyage;
 	}
-	public void setIdVoiture(Long idVoiture) {
-		this.idVoiture = idVoiture;
+	public void setIdVoyage(Long idVoyage) {
+		this.idVoyage = idVoyage;
 	}
 	@Length(max=100,min=2,message="Merci de vérifier les informations saisies")
 	public String getVilleDepart() {

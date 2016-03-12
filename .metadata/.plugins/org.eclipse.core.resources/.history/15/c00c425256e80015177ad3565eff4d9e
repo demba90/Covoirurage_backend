@@ -1,0 +1,2 @@
+logging.file= covoiturage.log
+logging.path= c:\\covoiturage\logs

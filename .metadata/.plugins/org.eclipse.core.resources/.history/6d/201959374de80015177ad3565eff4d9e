@@ -1,0 +1,5 @@
+package sn.esp.covoituragefrontend.core;
+
+public enum EnumEtat {
+
+}

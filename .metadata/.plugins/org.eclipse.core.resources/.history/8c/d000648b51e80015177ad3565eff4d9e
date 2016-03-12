@@ -1,0 +1,8 @@
+package sn.esp.covoituragebackend.config;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class LogConfig {
+		private Class c 
+}

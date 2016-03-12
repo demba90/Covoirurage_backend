@@ -1,0 +1,16 @@
+package sn.esp.covoituragebackend.entities;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="historiques")
+public class Historique {
+	
+	private Long idHitorique;
+	private Date dateEvenement;
+	private Long idConducteur;
+	private Long 
+}

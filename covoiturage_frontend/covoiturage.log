@@ -1,0 +1,65 @@
+2016-03-12 13:32:48.018  INFO 20736 --- [main] s.e.c.CovoiturageFrontendApplication     : Starting CovoiturageFrontendApplication on ngagne with PID 20736 (C:\Users\thiam\Documents\GitHub\Covoirurage_backend\covoiturage_frontend\target\classes started by thiam in C:\Users\thiam\Documents\GitHub\Covoirurage_backend\covoiturage_frontend)
+2016-03-12 13:32:48.020  INFO 20736 --- [main] s.e.c.CovoiturageFrontendApplication     : No active profile set, falling back to default profiles: default
+2016-03-12 13:32:48.054  INFO 20736 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62e136d3: startup date [Sat Mar 12 13:32:48 UTC 2016]; root of context hierarchy
+2016-03-12 13:32:49.025  INFO 20736 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-12 13:32:49.441  INFO 20736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b67ab7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-12 13:32:49.861  INFO 20736 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2016-03-12 13:32:49.877  INFO 20736 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-12 13:32:49.878  INFO 20736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-03-12 13:32:50.003  INFO 20736 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-03-12 13:32:50.003  INFO 20736 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1951 ms
+2016-03-12 13:32:50.292  INFO 20736 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-12 13:32:50.297  INFO 20736 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-12 13:32:50.298  INFO 20736 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-12 13:32:50.298  INFO 20736 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-12 13:32:50.298  INFO 20736 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-12 13:32:50.340  INFO 20736 --- [main] s.e.c.api.ApiController                  : Démarrage de la plateforme
+2016-03-12 13:32:50.501  INFO 20736 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-03-12 13:32:50.514  INFO 20736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-03-12 13:32:50.584  INFO 20736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-03-12 13:32:50.587  INFO 20736 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-03-12 13:32:50.591  INFO 20736 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-03-12 13:32:50.742  INFO 20736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-03-12 13:32:51.078  INFO 20736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-03-12 13:32:51.305  INFO 20736 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-03-12 13:32:51.588  INFO 20736 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-03-12 13:32:51.588  INFO 20736 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-03-12 13:32:51.589  INFO 20736 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-03-12 13:32:51.629  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: covoituragedb.conducteurs
+2016-03-12 13:32:51.633  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [estfumeur, adresseconducteur, prenomconducteur, emailconducteur, pwdconducteur, nomconducteur, telconducteur, idconducteur, loginconducteur]
+2016-03-12 13:32:51.633  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-03-12 13:32:51.633  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [primary]
+2016-03-12 13:32:51.641  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: covoituragedb.historiques
+2016-03-12 13:32:51.644  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [idvoyage, idvoiture, idhitorique, dateevenement, idconducteur]
+2016-03-12 13:32:51.645  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-03-12 13:32:51.645  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [primary]
+2016-03-12 13:32:51.653  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: covoituragedb.voitures
+2016-03-12 13:32:51.654  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [etatvoyage, datevoyage, villearrivee, idvoyage, prixvoyage, villedepart, matricule, idvoiture, modele, ndplaces, etat, marque]
+2016-03-12 13:32:51.654  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-03-12 13:32:51.654  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [primary]
+2016-03-12 13:32:51.664  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: covoituragedb.voyages
+2016-03-12 13:32:51.667  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [idvoyage, datevoyage, villearrivee, prixvoyage, villedepart, matricule, ref_conducteur, idvoiture, ndplaces, etat, marque, etatvoyage, ref_voiture, modele]
+2016-03-12 13:32:51.667  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: [fk_j1d443dfgo8f2ggt6uv7j1nvw, fk_tkcfcyw5xg8twpvbjp36f8oh1]
+2016-03-12 13:32:51.667  INFO 20736 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [fk_j1d443dfgo8f2ggt6uv7j1nvw, primary, fk_tkcfcyw5xg8twpvbjp36f8oh1]
+2016-03-12 13:32:51.668  INFO 20736 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-03-12 13:32:52.062  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62e136d3: startup date [Sat Mar 12 13:32:48 UTC 2016]; root of context hierarchy
+2016-03-12 13:32:52.169  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/yobalema/test],methods=[GET]}" onto public java.lang.String sn.esp.covoituragefrontend.api.ApiController.test()
+2016-03-12 13:32:52.170  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/yobalema/ajouterVoiture],methods=[POST || PUT]}" onto public sn.esp.covoituragebackend.entities.Voiture sn.esp.covoituragefrontend.api.ApiController.addVoiture(sn.esp.covoituragebackend.entities.Voiture)
+2016-03-12 13:32:52.171  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/yobalema/ajouterVoyage],methods=[GET]}" onto public sn.esp.covoituragebackend.entities.Voyage sn.esp.covoituragefrontend.api.ApiController.addVoyageGet(sn.esp.covoituragebackend.entities.Voyage)
+2016-03-12 13:32:52.176  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/yobalema/ajouterVoyage],methods=[POST || PUT]}" onto public sn.esp.covoituragebackend.entities.Voyage sn.esp.covoituragefrontend.api.ApiController.addVoyage(sn.esp.covoituragebackend.entities.Voyage)
+2016-03-12 13:32:52.176  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/yobalema/ajouterConducteur],methods=[GET]}" onto public sn.esp.covoituragebackend.entities.Conducteur sn.esp.covoituragefrontend.api.ApiController.addConducteurGet(sn.esp.covoituragebackend.entities.Conducteur)
+2016-03-12 13:32:52.177  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/yobalema/ajouterConducteur],methods=[POST || PUT]}" onto public sn.esp.covoituragebackend.entities.Conducteur sn.esp.covoituragefrontend.api.ApiController.addConducteur(sn.esp.covoituragebackend.entities.Conducteur)
+2016-03-12 13:32:52.177  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/yobalema/ajouterVoiture],methods=[GET]}" onto public sn.esp.covoituragebackend.entities.Voiture sn.esp.covoituragefrontend.api.ApiController.addVoitureGet(sn.esp.covoituragebackend.entities.Voiture)
+2016-03-12 13:32:52.185  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-03-12 13:32:52.185  INFO 20736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-12 13:32:52.220  INFO 20736 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-03-12 13:32:52.221  INFO 20736 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-03-12 13:32:52.265  INFO 20736 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-03-12 13:32:52.450  INFO 20736 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-12 13:32:52.506  INFO 20736 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090 (http)
+2016-03-12 13:32:52.510  INFO 20736 --- [main] s.e.c.CovoiturageFrontendApplication     : Started CovoiturageFrontendApplication in 4.727 seconds (JVM running for 6.074)
+2016-03-12 13:33:24.873  INFO 20736 --- [RMI TCP Connection(2)-192.168.39.2] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2016-03-12 13:33:24.873  INFO 20736 --- [RMI TCP Connection(2)-192.168.39.2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62e136d3: startup date [Sat Mar 12 13:32:48 UTC 2016]; root of context hierarchy
+2016-03-12 13:33:24.881  INFO 20736 --- [RMI TCP Connection(2)-192.168.39.2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

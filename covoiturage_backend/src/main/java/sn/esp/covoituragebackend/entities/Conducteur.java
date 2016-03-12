@@ -13,7 +13,11 @@ import javax.persistence.Table;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
-
+/**
+ * Entité Conducteur. Elle a une collection de voyage.
+ * @author thiam
+ *
+ */
 @Entity
 @Table(name="conducteurs")
 public class Conducteur {

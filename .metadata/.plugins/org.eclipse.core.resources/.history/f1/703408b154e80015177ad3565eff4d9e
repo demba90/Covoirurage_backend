@@ -1,0 +1,14 @@
+package sn.esp.covoituragebackend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import sn.esp.covoituragebackend.config.LogConfig;
+
+@SpringBootApplication
+public class CovoiturageApplication {
+	LogConfig logger = new LogConfig();
+	public static void main(String[] args) {
+		SpringApplication.run(CovoiturageApplication.class, args);
+	}
+}

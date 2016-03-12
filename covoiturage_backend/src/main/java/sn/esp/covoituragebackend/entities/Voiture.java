@@ -14,11 +14,15 @@ import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlTransient;
 
 import org.hibernate.validator.constraints.Length;
-
+/**
+ * Entité Voiture. Elle a une collection de voyage. 
+ * @author thiam
+ *
+ */
 @Entity
 @Table(name="voitures")
 public class Voiture {
-	private Long idVoyage;
+	private Long idVoiture;
 	private String marque;
 	private String modele;
 	private int ndPlaces;
@@ -33,11 +37,11 @@ public class Voiture {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	public Long getIdVoyage() {
-		return idVoyage;
+	public Long getIdVoiture() {
+		return idVoiture;
 	}
-	public void setIdVoyage(Long idVoyage) {
-		this.idVoyage = idVoyage;
+	public void setIdVoiture(Long idVoiture) {
+		this.idVoiture = idVoiture;
 	}
 	
 	@Length(min=2,max=45,message="Merci de vérifier les informations saisies dans ce champs")

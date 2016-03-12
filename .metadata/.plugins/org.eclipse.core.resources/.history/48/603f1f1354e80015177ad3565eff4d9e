@@ -1,0 +1,13 @@
+package sn.esp.covoituragebackend.config;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
+
+@Component
+public class LogConfig {
+	private Logger log
+	
+	public Logger getLog(Class c){
+		return Logger.getLogger(c);
+	}
+}

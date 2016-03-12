@@ -14,11 +14,68 @@ import sn.esp.covoituragebackend.entities.Voyage;
 public interface IMetier {
 	public String testMetier();
 	/*crud sur les voitures*/
+	/**
+	 * Cette méthode permet d'ajouter une voiture. 
+	 * @param Voiture v
+	 * @return
+	 */
 	public Voiture addVoiture(Voiture v);
+	
+	/**
+	 * Cette méthode permet de trouver une voiture connaissant son identifiant
+	 * @param refVoiture
+	 * @return
+	 */
 	public Voiture findVoiture(Long refVoiture);
+	
+	/**
+	 * Cette méthode permet de lister toutes les voitures dans la plateforme
+	 * @return
+	 */
 	public Iterable<Voiture> findAllVoiture();
+	
+	/**
+	 * Cette méthode permet de lister toutes les voitures dans la plateforme
+	 * selon un état
+	 * @param etat
+	 * @return
+	 */
+	public Iterable<Voiture> findAllVoitureByEtat(String etat);
+	
+	/**
+	 * Cette méthode permet de lister toutes les voitures dans la plateforme
+	 * ayant une marque donnée
+	 * @param marque
+	 * @return
+	 */
+	public Iterable<Voiture> findAllVoitureByMarque(String marque);
+	
+	/**
+	 * Cette méthode permet de lister toutes les voitures de la plateforme qui sont d'un modele
+	 * modele
+	 * @param modele
+	 * @return
+	 */
+	public Iterable<Voiture> findAllVoitureByModele(String modele);
+	/**
+	 * Cette méthode permet de modifier les informations sur une voiture
+	 * @param v
+	 * @return
+	 */
 	public Voiture updateVoiture(Voiture v);
+	/**
+	 * Meme que la méthode en haut mais celle-ci est ajouter pour plus de flexibilité
+	 * @param refVoiture
+	 * @param v
+	 * @return
+	 */
 	public Voiture updateThisVoiture(Long refVoiture,Voiture v);
+	/**
+	 * Cette méthode permet de supprimer une voiture de la plateforme. 
+	 * Pour le cas de la suppression, on verra si on ne peut pas juste chnagé le statut de la voiture
+	 * de 1 à 0 .
+	 * @param refVoiture
+	 */
 	public void deleteVoiture(Long refVoiture);
 	/*crud sur les voyages*/
 	public Voyage addVoyage(Voyage v);

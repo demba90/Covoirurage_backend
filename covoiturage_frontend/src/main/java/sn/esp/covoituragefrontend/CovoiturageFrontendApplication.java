@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan(basePackages="sn.esp")
+@ComponentScan(basePackages={"sn.esp","sn.esp.covoituragebackend"})
 public class CovoiturageFrontendApplication {
 
 	public static void main(String[] args) {

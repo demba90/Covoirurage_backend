@@ -1,0 +1,10 @@
+package sn.esp.covoituragebackend.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="historiques")
+public class Historique {
+	
+}

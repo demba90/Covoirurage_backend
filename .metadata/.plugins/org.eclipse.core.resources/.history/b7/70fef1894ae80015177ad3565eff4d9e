@@ -1,0 +1,56 @@
+package sn.esp.covoituragebackend.entities;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="historiques")
+public class Historique {
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	public Long getIdHitorique() {
+		return idHitorique;
+	}
+	public void setIdHitorique(Long idHitorique) {
+		this.idHitorique = idHitorique;
+	}
+
+	public Date getDateEvenement() {
+		return dateEvenement;
+	}
+	public void setDateEvenement(Date dateEvenement) {
+		this.dateEvenement = dateEvenement;
+	}
+	public Long getIdConducteur() {
+		return idConducteur;
+	}
+	public void setIdConducteur(Long idConducteur) {
+		this.idConducteur = idConducteur;
+	}
+	public Long getIdVoyage() {
+		return idVoyage;
+	}
+	public void setIdVoyage(Long idVoyage) {
+		this.idVoyage = idVoyage;
+	}
+	public Long getIdVoiture() {
+		return idVoiture;
+	}
+	public void setIdVoiture(Long idVoiture) {
+		this.idVoiture = idVoiture;
+	}
+	private Long idHitorique;
+	private Date dateEvenement;
+	private Long idConducteur;
+	private Long idVoyage;
+	private Long idVoiture;
+	
+	
+}
